@@ -96,3 +96,38 @@ body {
 }
 .extra-nav-btn {
 }
+
+/* Header Title */
+
+.header-title {
+  position: relative;
+  text-align: center;
+}
+
+.header-title__small {
+  position: absolute;
+  top: -8px;
+  width: 100%;
+  
+  font-weight: 500;
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.7);
+  text-transform: uppercase;
+  letter-spacing: 0.55em;
+}
+
+.header-title__big {
+  font-weight: 700;
+  font-size: 250px;
+
+  background: linear-gradient(
+      21deg,
+      rgb(160, 160, 160) -3.87%,
+      rgba(255, 255, 255, 0) 36.89%
+    ),
+    #ffffff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
