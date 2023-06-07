@@ -58,7 +58,7 @@ body {
   height: 100%;
 
   padding-bottom: 82px;
-  
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -70,6 +70,7 @@ body {
 .header-nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
   padding-top: 48px;
   padding-left: 76px;
@@ -85,10 +86,13 @@ body {
   column-gap: 65px;
   /* justify-content: space-between; */
   /* align-items: center; */
+
+  font-weight: 600;
+  font-size: 18px;
 }
-.nav__item {
-}
+
 .nav__link {
+  color: #fff;
 }
 .extra-nav-btn {
 }
